@@ -1,0 +1,52 @@
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+<h1 align="center">
+  {{title}}
+</h1>
+
+<div class="wrap">
+    <div class="floatleft">
+    <table id="game-listing" align="left">
+  <tr *ngFor="let game of games">
+    <td>
+      <img src="{{game.image}}"  style="width:304px;height:228px"></td><td>
+      <h3>{{game.name}}</h3>
+      <p>Price: ${{game.price}}</p>
+      <p>Date Released: {{game.release}}</p>
+    </td>
+    <td>
+      <button (click)="AddtoCart([game.name],[game.price])" class= "button">Add To Cart</button>
+    </td>
+  </tr>
+  </table>
+</div>
+    <div class="floatright">
+      <h3 align="center">Shopping Cart</h3>
+    <table id="cart" align="right">
+          <th>Game Name</th>
+          <th>Price</th>
+       <tr *ngFor="let cart of carts">
+      <td>{{cart.name}}</td>
+      <td>{{cart.price}}</td>
+  </tr>
+    <tr>
+      <button (click)="Checkout()" align="center" class= "button">Checkout</button>
+    </tr>
+  </table>
+  <br><br><br>
+
+    <table id="cart" align="right">
+          <th>Total</th>
+       <tr *ngFor="let billing of billings">
+      <td>${{billing.price}}</td>
+  </tr>
+  </table>  
+    </div>
+

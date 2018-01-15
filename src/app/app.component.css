@@ -1,0 +1,189 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 60%;
+    height: 400px;
+}
+
+.floatright {
+float: right;
+    height: 400px;
+    width: 40%;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+table 
+{
+    border-collapse: collapse;
+	align: center;
+	width:70%; 
+    margin-left:15%; 
+}
+
+th, td {
+    text-align: left;;
+    padding: 8px;
+	align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	background-color: #CCCCCC;
+}
+
+
+th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #CCCCCC;
+	background-color: #333366;
+	align: center;
+}
+body {
+	background-image: url(5.png);
+	background-size: cover;
+}
+
+
+.style1 {
+	font-family: "Trajan Pro";
+	color: #FFFFFF;
+}
+.header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #CCCCCC;
+	background-color: #333366;
+}
+.tablerows {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #CCCCCC;
+	background-color: #330000;
+}
+.tablerow2 {
+	background-color: #CCCCCC;
+}
+.submit {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	background-color: #33CC00;
+}
+.style2 {font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #CCCCCC; background-color: #333366; }
+.styledrop {	margin: 0;
+	padding: 2;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 144px;
+	height: 35px;
+	float: center;
+	background-color: #FBFBFB;
+}
+
+.button {background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	width: 300px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button1
+ {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	width: 80;
+	height: 40;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2 {background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	width: 300px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.style5 {font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.style3 {
+	font-family: "Trajan Pro";
+	font-weight: bold;
+	font-size: 40px;
+	color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
